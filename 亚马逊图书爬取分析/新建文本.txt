@@ -1,0 +1,1 @@
+book_name,author,publishing,publishing_time,price,book_size,page_count,score,isbn,bar_code,graphic_design,edition,product_size,weight,classify,language,brand,about_the_author,book_review,create_time,commentator,rating
