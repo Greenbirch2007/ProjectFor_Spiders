@@ -31,7 +31,7 @@ if __name__ == "__main__":
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
     # sql 语句
-    for i in range(64, 527):  #共有５２７行
+    for i in range(286, 527):  #共有５２７行
         sql = 'select * from Aagin_Links1 where id = %s ' % i
         # #执行sql语句
         cur.execute(sql)
@@ -45,7 +45,7 @@ if __name__ == "__main__":
             # item[0]:主题名   #item[1]:链接
             item_theme = item[0]
             item_link = item[1]
-            driver = webdriver.Chrome()
+            driver = webdriver.Firefox()
             driver.get(item_link)
             big_list = []
 

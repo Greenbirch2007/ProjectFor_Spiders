@@ -31,7 +31,7 @@ if __name__ == "__main__":
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
     # sql 语句
-    for i in range(65, 623):  #
+    for i in range(621, 623):  #
         sql = 'select * from Small_Themes1 where id = %s ' % i
         # #执行sql语句
         cur.execute(sql)

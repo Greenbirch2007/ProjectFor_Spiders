@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809328e9-79fd-4c6f-b233-05b019b9492c" name="Default Changelist" comment="" />
+    <list default="true" id="809328e9-79fd-4c6f-b233-05b019b9492c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py" beforeDir="false" afterPath="$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/亚马逊图书爬取分析/小主题爬虫/Small_LastSecond_links.py" beforeDir="false" afterPath="$PROJECT_DIR$/亚马逊图书爬取分析/小主题爬虫/Small_LastSecond_links.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/亚马逊图书爬取分析/小主题爬虫/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/亚马逊图书爬取分析/小主题爬虫/geckodriver.log" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,34 +17,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/分析单一书籍页面是否有JS渲染机制/NotJS_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+              <folding>
+                <element signature="e#25#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/小主题爬虫/Small_LastSecond_links.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-              <folding>
-                <element signature="e#24#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="16" selection-start-line="9" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>王小波</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py" />
         <option value="$PROJECT_DIR$/亚马逊图书爬取分析/小主题爬虫/Small_LastSecond_links.py" />
+        <option value="$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py" />
+        <option value="$PROJECT_DIR$/分析单一书籍页面是否有JS渲染机制/NotJS_test.py" />
       </list>
     </option>
   </component>
@@ -47,6 +63,7 @@
     <option name="width" value="996" />
     <option name="height" value="670" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -68,13 +85,12 @@
               <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
               <item name="亚马逊图书爬取分析" type="462c0819:PsiDirectoryNode" />
-              <item name="大主题爬虫(已经到了倒数第二层)（完毕）" type="462c0819:PsiDirectoryNode" />
+              <item name="其他用来整理思路的脚本" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="亚马逊图书爬取分析" type="462c0819:PsiDirectoryNode" />
-              <item name="小主题爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="分析单一书籍页面是否有JS渲染机制" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -84,6 +100,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -98,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Small_LastSecond_links">
+  <component name="RunManager" selected="Python.NotJS_test">
     <configuration name="Big_LastSecond_links" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProjectFor_Spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,6 +129,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="NotJS_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjectFor_Spiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分析单一书籍页面是否有JS渲染机制" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分析单一书籍页面是否有JS渲染机制/NotJS_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,8 +181,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Small_LastSecond_links" />
+        <item itemvalue="Python.NotJS_test" />
         <item itemvalue="Python.Big_LastSecond_links" />
+        <item itemvalue="Python.Small_LastSecond_links" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +209,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298611" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,19 +231,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/小主题爬虫/Small_LastSecond_links.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/大主题爬虫(已经到了倒数第二层)（完毕）/Big_LastSecond_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分析单一书籍页面是否有JS渲染机制/NotJS_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
