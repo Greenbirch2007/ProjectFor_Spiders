@@ -6,6 +6,15 @@ import re
 import time
 import urllib.request
 
+
+import re
+import requests
+import pymongo
+import pymysql
+from requests.exceptions import RequestException
+from lxml import etree
+
+
 import pymysql
 from lxml import etree
 
@@ -21,12 +30,16 @@ def get_one_page(url):
     return html
 
 
-
 def parse_page1(html):
     selector = etree.HTML(html)
     book_name = selector.xpath('//*[@id="productTitle"]/text()')
 
-    author = selector.xpath('//*[@id="bylineInfo"]/span/a/text()')
+    # 如果作者有两个或多个！
+    f_author = selector.xpath('//*[@id="bylineInfo"]/span/a/text()')
+    author = []
+    # 拼接是放入整个列表
+    author.append((",".join(f_author)))
+
 
 
     # # 图片用一个正则
@@ -41,9 +54,22 @@ def parse_page1(html):
     except FileNotFoundError:
         print('图片下载有问题')
 
-    for i1,i2 in zip(book_name,author):
+    book_name1 = if_isnull(book_name)
+    author1 = if_isnull(author)
+
+    for i1,i2 in zip(book_name1,author1):
         big_list.append(i1)
         big_list.append(i2)
+
+# 单独写一个剔除空格的函数
+
+
+def remove_block(items):
+    new_items = []
+    for it in items:
+        f = "".join(it.split())
+        new_items.append(f)
+    return new_items
 
 
 
@@ -66,7 +92,11 @@ def parse_page2(html):
         f = "".join(item.split())
         price.append(f)
 
-    for i1,i2,i3 in zip(publishing,publishing_time,price):
+    publishing1 = if_isnull(publishing)
+    publishing_time1 = if_isnull(publishing_time)
+    price1= if_isnull(price)
+
+    for i1,i2,i3 in zip(publishing1,publishing_time1,price1):
         big_list.append(i1)
         big_list.append(i2)
         big_list.append(i3)
@@ -95,7 +125,18 @@ def parse_page3(html):
     edition1 = all_publishing[0][-15:-11]
     edition.append(edition1)
 
-    for i1,i2,i3,i4,i5,i6,i7 in zip(book_size,page_count,score,isbn,bar_code,graphic_design,edition):
+    book_size1= if_isnull(book_size)
+    page_count1= if_isnull(page_count)
+    score1 = if_isnull(score)
+    isbn1 =if_isnull(isbn)
+    bar_code1 = if_isnull(bar_code)
+    graphic_design1 = if_isnull(graphic_design)
+    edition1 =if_isnull(edition)
+
+
+
+
+    for i1,i2,i3,i4,i5,i6,i7 in zip(book_size1,page_count1,score1,isbn1,bar_code1,graphic_design1,edition1):
         big_list.append(i1)
         big_list.append(i2)
         big_list.append(i3)
@@ -129,7 +170,14 @@ def parse_page4(html):
     language = selector.xpath('//*[@id="detail_bullets_id"]/table/tbody/tr/td/div/ul/li[3]/text()')
     brand = selector.xpath('//*[@id="detail_bullets_id"]/table/tbody/tr/td/div/ul/li[9]/text()')
 
-    for i1,i2,i3,i4,i5 in zip(product_size,weight,classify,language,brand):
+    product_size1 = if_isnull(product_size)
+    weight1 = if_isnull(weight)
+    classify1 =if_isnull(classify)
+    language1 = if_isnull(language)
+    brand1= if_isnull(brand)
+
+
+    for i1,i2,i3,i4,i5 in zip(product_size1,weight1,classify1,language1,brand1):
         big_list.append(i1)
         big_list.append(i2)
         big_list.append(i3)
@@ -138,8 +186,22 @@ def parse_page4(html):
 
 
 
+def ifisnull_removeBlock(content):
+    if_list =[]
 
+    if  content ==None:
+        f_content  = ''
+        if_list.append(f_content)
+    else:
 
+        f_content =content
+        if_list = f_content
+
+    new_items = []
+    for it in if_list:
+        f = "".join(it.split())
+        new_items.append(f)
+    return new_items
 
 
 
@@ -161,14 +223,18 @@ def Python_sel_Mysql():
                                  charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
     cur = connection.cursor()
     #sql 语句
-    for i in range(1,888):
-        sql = 'select links from An_small_links where id = %s ' % i
-        # #执行sql语句
-        cur.execute(sql)
-        # #获取所有记录列表
-        data = cur.fetchone()
-        url = data['links']
-        yield url
+    try:
+
+        for i in range(1,888):
+            sql = 'select * from Final_linkTable where id = %s ' % i
+            # #执行sql语句
+            cur.execute(sql)
+            # #获取所有记录列表
+            data = cur.fetchone()
+            book_link = data['f_blink']
+            yield book_link
+    except :
+        print("放过去")
 
 
 
@@ -185,24 +251,8 @@ def insertDB(content):
     except :
         print('出列啦')
 
-import pymongo
 
-# 配置数据库信息
-MONGO_URl = 'localhost'
-MONGO_DB = 'taobao' # 数据库名
-MONGO_TABLE = 'iphonex_url' # 表名
 
-# 连接数据库
-client = pymongo.MongoClient(MONGO_URl)
-db = client[MONGO_DB]
-
-# 存入数据库
-def save_url_to_Mongo(result):
-    try:
-        if db[MONGO_TABLE].insert(result):
-            print('存储到MongoDB成功', result)
-    except Exception:
-        print('存储到MongoDb失败', result)
 
 
 
@@ -213,21 +263,21 @@ if __name__ == "__main__":
     for url_str in Python_sel_Mysql():
         try:
 
-
             html = get_one_page(url_str)
             big_list = []
             ff_l = []
             time.sleep(1)
 
             parse_page1(html)
-            parse_page2(html)
-            parse_page3(html)
-            parse_page4(html)
-            l_t = tuple(big_list)
-            ff_l.append(l_t)
-            save_url_to_Mongo(ff_l)
+            print(url_str)
+            #     parse_page2(html)
+        #     parse_page3(html)
+        #     parse_page4(html)
+        #     l_t = tuple(big_list)
+        #     ff_l.append(l_t)
         except IndexError as e :
             print(e)
+        #     print(ff_l)
         # insertDB(ff_l)
 
 
@@ -262,8 +312,3 @@ if __name__ == "__main__":
 
 
 # drop  table amazon_book_Info;
-
-
-
-
-
