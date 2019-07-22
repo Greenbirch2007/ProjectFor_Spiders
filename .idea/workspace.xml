@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809328e9-79fd-4c6f-b233-05b019b9492c" name="Default Changelist" comment="" />
+    <list default="true" id="809328e9-79fd-4c6f-b233-05b019b9492c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/豆瓣/豆瓣分类结构分析.xls" beforeDir="false" afterPath="$PROJECT_DIR$/豆瓣/豆瓣分类结构分析.xls" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,14 +13,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book2.py">
+        <entry file="file://$PROJECT_DIR$/豆瓣/GetOneBook_link.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="72" />
+            <state relative-caret-position="195">
+              <caret line="118" column="6" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
               <folding>
-                <element signature="e#26#41#0" expanded="true" />
+                <element signature="e#23#38#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/豆瓣/t.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/豆瓣/DouBan_ThemeLinks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="86" lean-forward="true" selection-end-line="98" />
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1887" />
           </provider>
         </entry>
       </file>
@@ -58,12 +88,15 @@
         <option value="$PROJECT_DIR$/async_aiohttp_Test/Test16.py" />
         <option value="$PROJECT_DIR$/remove_block_test.py" />
         <option value="$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book2.py" />
+        <option value="$PROJECT_DIR$/豆瓣/DouBan_ThemeLinks.py" />
+        <option value="$PROJECT_DIR$/豆瓣/t.py" />
+        <option value="$PROJECT_DIR$/豆瓣/GetOneBook_link.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="164" />
-    <option name="y" value="216" />
+    <option name="x" value="157" />
+    <option name="y" value="244" />
     <option name="width" value="996" />
     <option name="height" value="670" />
   </component>
@@ -83,30 +116,7 @@
             <path>
               <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="async_aiohttp_Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
               <item name="亚马逊图书爬取分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="亚马逊图书爬取分析" type="462c0819:PsiDirectoryNode" />
-              <item name="倒数第二层链接爬虫（完成）(1+74)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="亚马逊图书爬取分析" type="462c0819:PsiDirectoryNode" />
-              <item name="其他用来整理思路的脚本" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="亚马逊图书爬取分析" type="462c0819:PsiDirectoryNode" />
-              <item name="小主题爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
@@ -118,6 +128,11 @@
               <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
               <item name="异步爬虫思考" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectFor_Spiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectFor_Spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="豆瓣" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,7 +142,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Futures_ComesBack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -142,8 +157,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.remove_block_test">
-    <configuration name="NotJS_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.GetOneBook_link">
+    <configuration name="DouBan_ThemeLinks" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProjectFor_Spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,11 +166,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/分析单一书籍页面是否有JS渲染机制" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/豆瓣" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/分析单一书籍页面是否有JS渲染机制/NotJS_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/豆瓣/DouBan_ThemeLinks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GetOneBook_link" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjectFor_Spiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/豆瓣" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/豆瓣/GetOneBook_link.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,48 +221,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="amazon_book2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProjectFor_Spiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/亚马逊图书爬取分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="isnull_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProjectFor_Spiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/isnull_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="remove_block_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProjectFor_Spiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,13 +242,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjectFor_Spiders" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/豆瓣" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/豆瓣/t.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GetOneBook_link" />
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.DouBan_ThemeLinks" />
         <item itemvalue="Python.remove_block_test" />
         <item itemvalue="Python.Test16" />
-        <item itemvalue="Python.NotJS_test" />
-        <item itemvalue="Python.amazon_book2" />
-        <item itemvalue="Python.isnull_test" />
       </list>
     </recent_temporary>
   </component>
@@ -273,19 +288,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41958043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41908008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.24825175" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24701874" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -401,9 +417,6 @@
         <state relative-caret-position="-1126" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/其他用来整理思路的脚本/An_Middle_link.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-993" />
@@ -469,10 +482,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="72" />
+        <state relative-caret-position="408">
+          <caret line="196" column="26" lean-forward="true" selection-start-line="196" selection-start-column="26" selection-end-line="196" selection-end-column="26" />
           <folding>
             <element signature="e#26#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/亚马逊图书爬取分析/amazon_book1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/豆瓣/DouBan_ThemeLinks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="86" lean-forward="true" selection-end-line="98" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/豆瓣/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/豆瓣/GetOneBook_link.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="118" column="6" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
         </state>
       </provider>

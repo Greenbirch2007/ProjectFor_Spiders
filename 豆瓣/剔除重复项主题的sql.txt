@@ -1,0 +1,14 @@
+
+
+1.建立新表
+
+create table DouBan_DistanctLink(
+id int not null primary key auto_increment,
+themes varchar(120) ,
+links varchar(120)
+ ) engine=InnoDB default charset=utf8;
+
+
+2. 将剔除重复项的查询结果插入新表
+
+insert into DouBan_DistanctLink(themes,links)SELECT distinct themes,links FROM Douban.DouBan_ThemeLinks;
